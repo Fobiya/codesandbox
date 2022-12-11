@@ -8,6 +8,8 @@
 @import "grid";
 @import "form";
 
+// https://svggyn.sse.codesandbox.io/
+
 
 
 //@import "modules/slick";
@@ -38,7 +40,6 @@ h1, h2, b, h3, h4, h5, button, label{
    font-family: var(--l);
     line-height: 1.2em;
 }
-
 
 // =========================================================== 
 // END Import
@@ -176,7 +177,6 @@ background: linear-gradient(180deg, #E46928 0%, #E45F19 100%);
   
     color: #fff;
     font: 700 15px/1.2em var(--l);
-
     width: 100%;
     max-width: 350px;
     height: 52px;
@@ -228,6 +228,7 @@ background: #F1F4F8;
     }
     
 }
+
 .grey_big{
     
   @extend %button;
@@ -251,7 +252,9 @@ background: #F1F4F8;
     box-shadow: 20px 20px 60px rgba(230, 108, 44, 0.22);
     }
   
+    text-align: #6e9cb2;
 
+    
     &:focus,
     &:active {
     background: #963d0e;
@@ -520,7 +523,16 @@ background: #F1F4F8;
       @include wid(601-991)  { padding: 187px 0  160px 0; }
       @include wid(600)      { padding: 187px 0  160px 0; }
    
-   
+      &:before{
+        @extend %bef-aft;
+    
+        background: rgba(0, 0, 0, 0.5);
+    
+        width: 100%;
+        height: 100%;
+        z-index: 111;
+        
+      }
    
    
      &>.container:nth-child(1)>.row:nth-child(1)>div:nth-child(1){
