@@ -1,0 +1,300 @@
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $white-color-3;
+    // background-color: tomato;
+    background-image: url('../img/bg.svg');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    // overflow-y: hidden;
+    // overflow-y: auto
+    // overflow-x: hidden;
+}
+
+
+.section__title {
+    font-family: $playfair;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.05;
+    color: $green-color-7;
+    margin-bottom: 30px;
+}
+
+.subtitle {
+    font-family: 'Tolyer', serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+
+}
+
+
+.container {
+//    padding: 0 30px;
+//    margin: 0 auto;
+//    min-width: 375px;
+//    // outline: 1px solid tomato;
+//    // overflow: hidden;
+//
+//
+//    @media screen and (min-width: $mobile) {
+//        width: 480px;
+//    }
+//
+//    @media screen and (min-width: $tablet) {
+//        width: 768px;
+//    }
+//
+//    @media screen and (min-width: $pc) {
+//        width: 1200px;
+//    }
+//
+//    @media screen and (min-width: $big-pc) {
+//        width: 1920px;
+//        padding: 0 118px;
+//    }
+
+}
+
+.carusel-container {
+//
+//    @media screen and (min-width: $tablet) {
+//        padding-left: 30px;
+//    }
+//
+//    @media screen and (min-width: $pc) {
+//        padding-left: 30px;
+//    }
+//
+//    @media screen and (min-width: $big-pc) {
+//        padding-left: 130px;
+//    }
+//
+
+}
+
+
+
+.relative {
+    position: relative;
+}
+
+.overflow {
+    overflow: hidden
+}
+
+.overflow-on {
+    overflow: visible
+}
+
+
+
+.primary__btn {
+    cursor: pointer;
+    font-family: $openSans;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.63;
+    // width: 315px;
+    width: 316px;
+    display: inline-flex;
+    align-items: center;
+    background-color: $orange-color-3;
+    color: $white-color-1;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 17px 0;
+    justify-content: center;
+    margin: 0 auto;
+    transition: background-color $standart-transition-time $standart-transition-style;
+    text-decoration: none;
+
+    @media screen and (min-width: $tablet) {}
+
+    @media screen and (min-width: $pc) {
+        font-size: 20px;
+    }
+
+    &:hover {
+        background-color: $orange-color-4
+    }
+
+    &:disabled {
+        background-color: $grey-color-3;
+    }
+
+    &::after {
+        content: "";
+        width: 44px;
+        height: 18px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-left: 16px;
+        background-image: url("../img/arrow.svg");
+        @media screen and (min-width: $big-pc){
+            margin-left: 51px;
+        }
+        
+    }
+
+}
+
+.secondary__btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.63;
+    text-decoration: none;
+    width: 315px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: $green-color-7;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 17px 0;
+    justify-content: center;
+    margin: 0 auto;
+    transition: all $standart-transition-time $standart-transition-style;
+
+    &:hover {
+        background-color: $orange-color-4
+    }
+
+    &:disabled {
+        background-color: $grey-color-3;
+    }
+
+    &::after {
+        content: "";
+        width: 27px;
+        height: 27px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-left: 16px;
+        background-image: url("../img/common/arrow-green.svg")
+    }
+
+}
+
+.article-maintitle {
+    font-family: $playfair;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.36;
+    color: $white-color-1;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 38px;
+    }
+
+    @media screen and (min-width: $pc) {
+        font-size: 54px;
+    }
+
+    @media screen and (min-width: $big-pc) {
+        font-size: 64px;
+    }
+
+}
+
+.article-title {
+
+    font-family: $playfair;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.36;
+    color: $white-color-1;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 28px;
+    }
+
+    @media screen and (min-width: $pc) {
+        font-size: 30px;
+    }
+
+    @media screen and (min-width: $big-pc) {
+        font-size: 36px;
+    }
+
+}
+
+.article-secondary-title {
+
+    font-family: $openSans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.36;
+    color: $white-color-1;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 28px;
+    }
+
+    @media screen and (min-width: $pc) {
+        font-size: 30px;
+    }
+
+    @media screen and (min-width: $big-pc) {
+        font-size: 36px;
+    }
+
+}
+
+.article-subtitle {
+    font-family: $tolyer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: $white-color-1;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 16px;
+    }
+
+    @media screen and (min-width: $pc) {
+        font-size: 18px;
+    }
+
+    @media screen and (min-width: $big-pc) {
+        font-size: 20px;
+    }
+}
+
+.article-text {
+    font-family: $openSans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.57;
+    letter-spacing: 0.005em;
+    color: $white-color-1;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 16px;
+    }
+
+    @media screen and (min-width: $pc) {
+        font-size: 20px;
+    }
+
+    @media screen and (min-width: $big-pc) {
+        font-size: 22px;
+    }
+
+
+}

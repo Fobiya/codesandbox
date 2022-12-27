@@ -1,0 +1,51 @@
+.unknown {
+    text-align: center;
+    padding: 116px 30px;
+    // min-height: 500px;
+    @media screen and( min-width: $pc){
+        // min-height: 700px;
+    }
+
+
+    &__title {
+        font-family: $playfair;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 1.25;
+        color: $green-color-5;
+        @media screen and( min-width: $pc){
+            font-size: 64px;
+        }
+
+    }
+
+    &__text{
+        font-family: $openSans;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.57;
+        letter-spacing: 0.005em;
+        color: $green-color-5;
+        @media screen and( min-width: $pc){
+            font-size: 24px;
+        }
+    }
+    &__image {
+        width: 217px;
+        display: block;       
+        margin: 0 auto;
+
+        @media screen and( min-width: $pc){
+            width: 338px;
+        }
+    }
+
+    &__btn{
+        margin-top: 50px;
+        @media screen and( min-width: $pc){
+            margin-top: 105px;
+        }
+    }
+}

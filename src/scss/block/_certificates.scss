@@ -1,0 +1,202 @@
+.certificates {
+
+    background-color: $green-color-5;
+    padding-top: 44px;
+    padding-bottom: 22px;
+    text-align: center;
+    @media screen and (min-width:$big-pc) {
+        padding-top: 66px;
+        padding-bottom: 58px;
+    }
+    
+
+    &__line {
+        display: none;
+
+        @media screen and (min-width:$tablet) {
+            position: absolute;
+            display: block;
+            transform: rotate(90deg);
+            top: 130px;
+            left: 202px;
+        }
+
+        @media screen and (min-width:$pc) {
+            top: 181px;
+            left: 406px;
+
+        }
+
+        @media screen and (min-width:$big-pc) {
+            width: 452px;
+            padding-top: 60px;
+            top: 232px;
+            left: 646px;
+
+        }
+    }
+
+    &__slider {
+
+        @media screen and (min-width: $tablet) {
+            display: none;
+        }
+    }
+
+    &__static {
+        display: none;
+
+        @media screen and (min-width:$tablet) {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        @media screen and (min-width:$pc) {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+        @media screen and (min-width:$pc) {
+            gap: 100px;
+        }
+    }
+
+  
+
+    &__title {
+        font-family: $tolyer;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        color: $white-color-1;
+        margin-bottom: 30px;
+
+
+    }
+
+    &__carousel-cell {
+        &-brand-wrapper {
+            display: flex;
+        }
+
+        &-wrapper {
+
+            width: 290px;
+
+        }
+
+        &-text {
+            font-family: $playfair;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.44;
+            color: $white-color-1;
+            margin-bottom: 30px;
+            
+        }
+    }
+
+
+    &__card {
+        width: 307px;
+        height: 235px;
+        // background-color: tomato;
+        display: flex;
+        flex-direction: column;
+
+        @media screen and (min-width: $tablet) {
+            height: unset;
+            width: 350px;
+        }
+
+        @media screen and (min-width: $pc) {
+            font-size: 26px;
+            width: 500px;
+        }
+
+        @media screen and (min-width: $big-pc) {
+            width: 769px;
+
+        }
+
+        &-subtitle {
+            font-family: $tolyer;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            letter-spacing: 0.1em;
+            color: $white-color-1;
+            text-align: center;
+
+            @media screen and (min-width: $tablet) {
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+
+            @media screen and (min-width: $pc) {
+                font-size: 18px;
+                margin-bottom: 13px;
+            }
+
+            @media screen and (min-width: $big-pc) {
+                font-size: 20 px;
+                margin-bottom: 20px;
+            }
+        }
+
+        &-text {
+            font-family: $playfair;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.43;
+            color: $white-color-1;
+            text-align: center;
+            margin-bottom: 13px;
+
+            @media screen and (min-width: $pc) {
+                font-size: 26px;
+            }
+
+            @media screen and (min-width: $big-pc) {
+                font-size: 36px;
+            }
+        }
+
+        &-images {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            justify-content: center;
+            gap: 5px;
+
+            @media screen and (min-width: $pc) {
+                margin: 20px 0;
+            }
+
+            @media screen and (min-width: $big-pc) {
+                margin: 30px 0;
+                gap: 50px;
+            }
+
+            &-image {
+                height: 43px;
+
+                @media screen and (min-width: $pc) {
+                    height: 60px;
+                }
+
+                @media screen and (min-width: $big-pc) {
+                    height: 87px;
+                }
+            }
+        }
+    }
+
+}
+
+
+// certificates_carousel-cell

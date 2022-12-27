@@ -1,0 +1,357 @@
+.testimonias {
+    padding: 120px 0;
+    min-height: 500px;
+    position: relative;
+
+    @media screen and (min-width: $pc) {
+        min-height: 700px;
+    }
+
+    @media screen and (min-width: $big-pc) {
+        height: 1155px;
+        padding-top: 193px;
+
+    }
+
+
+
+    &__subtitle {
+        font-family: $tolyer;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        color: $green-color-5;
+
+        @media screen and (min-width: $tablet) {
+            position: relative;
+        }
+
+        @media screen and (min-width: $pc) {
+            font-size: 17px;
+        }
+
+        @media screen and (min-width: $big-pc) {
+            font-size: 20px;
+        }
+
+    }
+
+    &__title {
+        font-family: $playfair;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 1.36;
+        color: $green-color-7;
+        margin-bottom: 30px;
+
+        @media screen and (min-width: $tablet) {
+            font-size: 35px;
+        }
+
+        @media screen and (min-width: $pc) {
+            width: 70%;
+            font-size: 44px;
+
+        }
+
+        @media screen and (min-width: $big-pc) {
+
+            font-size: 64px;
+        }
+
+    }
+
+    &__line {
+        margin-bottom: 22px;
+
+        @media screen and (min-width: $tablet) {
+            display: block;
+            margin: 0 auto;
+            width: 715px;
+            height: 1px;
+        }
+
+        @media screen and (min-width: $pc) {
+            width: 1133px;
+            height: 1px;
+        }
+
+        @media screen and (min-width: $big-pc) {
+            width: 2000px;
+            height: 1px;
+            position: absolute;
+            top: 418px;
+            right: -1px;
+
+        }
+
+        &-2 {
+            display: none;
+
+            @media screen and (min-width: $pc) {
+                display: block;
+                position: absolute;
+                top: 458px;
+                right: 649px;
+                rotate: 90deg;
+
+            }
+
+            @media screen and (min-width: $big-pc) {
+                top: 669px;
+                right: 1010px;
+                width: 537px;
+                height: 1px;
+            }
+
+        }
+    }
+
+    &__card {
+
+        &-btn {
+            display: none;
+
+            @media screen and (min-width: $pc) {
+                display: flex;
+                position: absolute;
+                top: 318px;
+                right: 853px;
+
+            }
+
+            @media screen and (min-width: $big-pc) {
+                width: 367px;
+                top: 462px;
+                right: 1416px;
+
+            }
+
+        }
+
+        &-symbol {
+            font-family: $playfair;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 100px;
+            line-height: 0.49;
+            color: $green-color-5;
+
+            @media screen and (min-width: $pc) {
+
+                position: absolute;
+                top: 320px;
+                right: 727px;
+            }
+
+            @media screen and (min-width: $big-pc) {
+
+                line-height: 0.69;
+                top: 464px;
+                right: 1142px;
+                font-size: 200px;
+
+            }
+
+
+        }
+
+        &-user {
+            @media screen and (min-width: $pc) {
+                display: flex;
+            }
+
+            &-wrapper-1 {
+                display: flex;
+                gap: 30px;
+
+                @media screen and (min-width: $pc) {
+                    position: absolute;
+                    top: 460px;
+                    right: 384px;
+                }
+
+                @media screen and (min-width: $big-pc) {
+                    top: 740px;
+                    right: 836px;
+                    align-items: center;
+
+                }
+
+
+            }
+
+            &-image {
+                display: none;
+                height: 166px;
+                width: 166px;
+                border-radius: 50%;
+
+                @media screen and (min-width: $pc) {
+                    display: block;
+                }
+            }
+        }
+
+        &-review {
+            font-family: $openSans;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.57;
+            letter-spacing: 0.005em;
+            color: $green-color-5;
+            margin-bottom: 30px;
+
+            @media screen and (min-width: $pc) {
+                width: 540px;
+                position: absolute;
+                top: 335px;
+                right: 142px;
+                font-size: 18px;
+            }
+
+            @media screen and (min-width: $big-pc) {
+                text-align: center;
+                width: 959px;
+                font-size: 32px;
+                top: 492px;
+                right: 202px;
+
+
+
+
+            }
+        }
+
+        &-name {
+            font-family: $openSans;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.65;
+            letter-spacing: 0.005em;
+            color: #444F43;
+            margin-bottom: 9px;
+
+            @media screen and (min-width: $pc) {
+                font-size: 18px;
+            }
+
+        }
+
+        &-footer {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+
+        }
+
+        &-position-wrapper {
+            display: inline-block;
+            padding: 7px 24px;
+            border-radius: 10px;
+            background-color: rgba(137, 191, 145, 0.29);
+            font-family: $openSans;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.65;
+            letter-spacing: 0.005em;
+            color: $green-color-7;
+
+            @media screen and (min-width: $pc) {
+                font-size: 18px;
+            }
+        }
+
+    }
+
+
+
+    &__btns {
+        display: flex;
+        // display: none;
+        height: 1px;
+        width: 1px;
+        align-items: center;
+        position: absolute;
+        bottom: 194px;
+        left: 216px;
+
+
+        @media screen and (min-width: $tablet) {
+            left: 564px;
+            bottom: 205px;
+
+        }
+
+
+        @media screen and (min-width: $pc) {
+            left: 959px;
+            bottom: 537px;
+        }
+
+        @media screen and (min-width: $big-pc) {
+            left: 1599px;
+            transform: scale(1.45);
+            top: 255px;
+        }
+
+
+
+        &-btn-1 {
+            position: absolute;
+            background-color: transparent;
+            border: 1.5px solid $orange-color-3;
+            border-radius: 50%;
+            top: 0;
+            left: 58px;
+            z-index: 1;
+            display: inline-block;
+            width: 73px;
+            height: 73px;
+            background-size: 50%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url("../img/common/a1.svg");
+            // background-color: blue;
+            transition: all $standart-transition-time $standart-transition-style;
+
+            &:active {
+                z-index: 3;
+                background-color: $orange-color-3;
+                background-image: url("../img/common/a1h.svg");
+
+
+            }
+        }
+
+        &-btn-2 {
+            border: 1.5px solid $grey-color-2;
+            background-color: transparent;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 1px;
+            z-index: 2;
+            display: inline-block;
+            width: 73px;
+            height: 73px;
+            background-size: 50%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url("../img/common/a2.svg");
+            transition: all $standart-transition-time $standart-transition-style;
+
+            &:active {
+                z-index: 3;
+                background-color: $white-color-1;
+                border: 1.5px solid $white-color-1;
+                background-image: url("../img/common/a2h.svg");
+            }
+        }
+    }
+
+}

@@ -1,0 +1,64 @@
+.spiritandscience {
+    min-height: 1000px;
+    padding: 127px 0;
+    background-image: url("/src/images/common/bg@2x.jpg");
+ 
+    background-position: -1508px 1px;
+
+    &-title {
+        margin-bottom: 30px;
+    }
+
+    &-text {
+        margin-bottom: 25px;
+    }
+
+    &-accent {
+        padding: 20px;
+        margin-bottom: 25px;
+        background: rgba(66, 79, 68, 0.52);
+        backdrop-filter: blur(8.5px);
+        border-radius: 17px;
+        font-family: $openSans;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.57;
+        letter-spacing: 0.005em;
+        color: $white-color-1;
+
+        @media screen and (min-width: $tablet) {
+            font-size: 16px;
+        }
+
+        @media screen and (min-width: $pc) {
+            font-size: 20px;
+        }
+
+        @media screen and (min-width: $big-pc) {
+            font-size: 22px;
+        }
+    }
+
+    &__image {
+        width: 316px;     
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__carousel {
+        margin-bottom: 162px;
+    }
+
+    &__card {
+        position: relative;
+        width: 316px;
+        height: 316px;     
+        border-radius: 17px;
+        overflow: hidden;      
+        display: flex;
+        flex-direction: column;
+        border: 1px tomato solid;
+    }
+
+}

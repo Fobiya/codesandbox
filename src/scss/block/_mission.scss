@@ -1,0 +1,131 @@
+.mission {
+    background-color: $green-color-5;
+    padding: 30px 0;
+
+    @media screen and (min-width: $pc) {
+        position: relative;
+    }
+
+    @media screen and (min-width: $big-pc) {
+        height: 850px;
+        padding-top: 160px;
+        padding-bottom: 30px;
+
+
+    }
+
+
+    &__container {
+        @media screen and (min-width: $pc) {
+
+            width: 50%;
+
+        }
+
+        @media screen and (min-width: $big-pc) {}
+    }
+
+
+    &__subtitle {
+        font-family: $tolyer;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        color: $white-color-1;
+
+        @media screen and (min-width: $big-pc) {
+            font-weight: 400;
+            font-size: 20px;
+
+        }
+    }
+
+    &__title {
+        font-family: $playfair;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 1.36;
+        color: $white-color-1;
+        margin-bottom: 30px;
+
+        @media screen and (min-width: $tablet) {
+            font-size: 35px;
+        }
+
+        @media screen and (min-width: $pc) {
+            font-size: 44px;
+
+        }
+
+        @media screen and (min-width: $big-pc) {
+            line-height: 1.2;
+            font-size: 64px;
+        }
+
+    }
+
+    &__text {
+        font-family: $openSans;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.57;
+        letter-spacing: 0.005em;
+        color: $white-color-1;
+        margin-bottom: 30px;
+
+        @media screen and (min-width: $pc) {
+            font-size: 18px;
+        }
+
+    }
+
+    &__btn {
+        margin: unset;
+
+        @media screen and (min-width: $big-pc) {
+            width: 380px;
+        }
+
+    }
+
+    &__img1 {
+
+        display: none;
+
+        @media screen and (min-width: $pc) {
+            display: block;
+            position: absolute;
+            top: 1px;
+            right: 1px;
+            height: 100%;
+        }
+
+        @media screen and (min-width: $big-pc) {
+            right: 139px;
+            width: 1029px;
+
+        }
+    }
+
+    &__img2 {
+        display: none;
+
+        @media screen and (min-width: $pc) {
+            height: 788px;
+            display: block;
+            position: absolute;
+            top: -45px;
+            right: 1px;
+        }
+
+        @media screen and (min-width: $big-pc) {
+            top: -80px;
+            right: 53px;
+            height: 1085px;
+        }
+
+    }
+}

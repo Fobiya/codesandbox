@@ -1,0 +1,21 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="shevron" viewBox="0 0 24 32">
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5146" d="M6.059 16.845l6.059 6.059 6.059-6.059"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5146" d="M6.059 9.088l6.059 6.059 6.059-6.059"></path>
+</symbol>
+<symbol id="arrow" viewBox="0 0 71 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M69.258 17.261c0.721-0.721 0.721-1.89 0-2.611l-11.749-11.749c-0.721-0.721-1.89-0.721-2.611 0s-0.721 1.89 0 2.611l10.444 10.443-10.444 10.444c-0.721 0.721-0.721 1.89 0 2.611s1.89 0.721 2.611 0l11.749-11.749zM1.491 17.802h66.462v-3.692h-66.462v3.692z"></path>
+</symbol>
+<symbol id="cart" viewBox="0 0 32 32">
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.6" d="M11.983 26.977c0.617 0 1.118-0.486 1.118-1.085s-0.5-1.085-1.118-1.085c-0.617 0-1.118 0.486-1.118 1.085s0.5 1.085 1.118 1.085z"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.6" d="M24.279 26.977c0.617 0 1.118-0.486 1.118-1.085s-0.5-1.085-1.118-1.085c-0.617 0-1.118 0.486-1.118 1.085s0.5 1.085 1.118 1.085z"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.6" d="M5.333 5.333h2.236l2.973 13.474c0.109 0.493 0.392 0.935 0.8 1.247s0.916 0.478 1.436 0.467h10.932c0.509-0.001 1.002-0.17 1.398-0.48s0.672-0.741 0.781-1.224l1.844-8.061h-18.968"></path>
+</symbol>
+<symbol id="burger" viewBox="0 0 43 32">
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.6552" d="M17.655 16.552h15.448"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.6552" d="M8.789 9.302h24.605"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.6552" d="M12.966 23.448h20.414"></path>
+</symbol>
+</defs>
+</svg>

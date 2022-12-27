@@ -1,0 +1,110 @@
+.partners {
+    padding-top: 124px;
+    padding-bottom: 60px;
+
+    @media screen and (min-width: $big-pc) {
+        padding: 186px 0;
+        padding-bottom: 120px;
+        // height: 216px;
+    }
+
+
+    &__card{
+
+        @media screen and (min-width: $big-pc) {
+            height: 75px;
+            width: 143px;
+        }
+
+    }
+    &__title {
+        font-family: $playfair;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 1.36;
+        color: $green-color-7;
+        margin-bottom: 16px;
+
+        @media screen and (min-width: $tablet) {
+            margin-bottom: 30px;
+        }
+
+        @media screen and (min-width: $pc) {
+            font-size: 44px;
+        }
+
+        @media screen and (min-width: $big-pc) {
+            font-size: 64px;
+        }
+
+
+    }
+
+    &__subtitle {
+        font-family: $tolyer;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        color: $green-color-5;
+
+        @media screen and (min-width: $pc) {
+            font-size: 17px;
+        }
+
+        @media screen and (min-width: $big-pc) {
+            font-size: 20px;
+        }
+
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+
+        @media screen and (min-width: $tablet) {
+            display: none;
+        }
+    }
+
+    &__item {
+        margin-bottom: 16px;
+
+        &:not(:last-child) {
+            margin-right: 24px;
+        }
+    }
+
+
+
+    &__image {
+        width: 60px;
+
+        @media screen and (min-width: $tablet) {
+            width: 60px;
+        }
+
+        @media screen and (min-width: $pc) {
+            width: 100px;
+        }
+
+        @media screen and (min-width: $big-pc) {
+            width: 140px;
+        }
+
+    }
+
+    &__slider {
+        display: none;
+
+        @media screen and (min-width: $tablet) {
+            display: block;
+
+        }
+
+    }
+
+
+
+}

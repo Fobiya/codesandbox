@@ -1,0 +1,397 @@
+.hero {
+    padding-top: 270px;
+    padding-bottom: 31px;
+    text-align: center;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url("../img/common/bg-tablet@1x.jpg");
+
+    @media screen and (min-width:$pc) {
+        height: 1000px;
+    }
+
+
+
+    @media screen and (min-width:$pc) {
+        background-image: url("../img/common/bg-tablet@2x.jpg");
+    }
+
+    @media screen and (min-width:$big-pc) {
+        min-height: 1082px;
+    }
+
+    &__subtitle {
+
+        font-family: $openSans;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        color: $white-color-1;
+
+        @media screen and (min-width:$pc) {
+            display: none
+        }
+
+        ;
+
+
+        &-2 {
+            display: none;
+            font-family: $openSans;
+            font-weight: 400;
+            font-size: 18px;
+            color: $white-color-1;
+
+            @media screen and (min-width:$pc) {
+                display: block;
+                position: absolute;
+                top: 610px;
+                left: 700px;
+            }
+
+            @media screen and (min-width:$big-pc) {
+                letter-spacing: .035em;
+
+                font-size: 23px;
+                top: 834px;
+                left: 1097px;
+            }
+
+
+
+
+
+        }
+
+
+    }
+
+    &__title {
+        font-family: $playfair;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 1.06;
+        letter-spacing: -0.035em;
+        color: $white-color-1;
+        margin-bottom: 82px;
+        margin-left: auto;
+        margin-right: auto;
+
+        @media screen and (min-width: $tablet) {
+            font-size: 46px;
+
+        }
+
+        @media screen and (min-width: $pc) {
+            font-size: 60px;
+            position: absolute;
+            left: 400px;
+            top: 575px;
+            text-align: left;
+        }
+
+        @media screen and (min-width: $big-pc) {
+            line-height: 1;
+            letter-spacing: -0.055em;
+            font-size: 100px;
+            top: 766px;
+            left: 623px;
+        }
+
+
+    }
+
+
+    &__info {
+        font-family: $openSans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.62;
+        letter-spacing: 0.005em;
+        color: $white-color-1;
+        transform: rotate(-0.06deg);
+        margin-bottom: 30px;
+
+        @media screen and (min-width: $pc) {
+            text-align: left;
+            width: 224px;
+            position: absolute;
+            top: 636px;
+            left: 104px;
+
+
+        }
+
+        @media screen and (min-width:$big-pc) {
+            width: 384px;
+            font-size: 18px;
+            top: 862px;
+            left: 165px;
+        }
+    }
+
+    &__deko--line-1 {
+        position: absolute;
+        top: 188px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        @media screen and (min-width: $pc) {
+            display: none;
+        }
+    }
+
+    &__deko--line-2 {
+        position: absolute;
+        top: 414px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        @media screen and (min-width: $pc) {
+            display: none;
+        }
+    }
+
+    &__deko--line-3 {
+        display: none;
+
+        @media screen and (min-width: $pc) {
+            display: block;
+            position: absolute;
+            top: 1px;
+            left: 30px;
+        }
+
+        @media screen and (min-width: $big-pc) {
+            left: 132px;
+        }
+    }
+
+    &__deko--line-4 {
+        display: none;
+
+        @media screen and (min-width: $pc) {
+            display: block;
+            position: absolute;
+            top: 74px;
+            right: 30px;
+        }
+
+        @media screen and (min-width: $big-pc) {
+            right: 132px;
+        }
+    }
+
+    &__deko--line-5 {
+        display: none;
+
+        @media screen and (min-width: $pc) {
+            display: block;
+            position: absolute;
+            top: 63px;
+            right: 220px;
+        }
+
+        @media screen and (min-width: $big-pc) {
+            right: 368px;
+        }
+    }
+
+    &__deko--line-6 {
+        display: none;
+
+        @media screen and (min-width: $pc) {
+            display: block;
+            position: absolute;
+            transform: rotate(90deg);
+            top: 163px;
+            left: 602px;
+            height: 1200px;
+            width: 2px;
+        }
+
+        @media screen and (min-width:$big-pc) {
+            height: 1920px;
+            width: 2px;
+            top: -232px;
+            left: 915px;
+        }
+
+
+    }
+
+
+    &__deko--line-7 {
+        display: none;
+
+        @media screen and (min-width: $pc) {
+            display: block;
+            position: absolute;
+            transform: rotate(90deg);
+            top: -69px;
+            left: 602px;
+            height: 1200px;
+            width: 2px;
+        }
+
+        @media screen and (min-width:$big-pc) {
+            height: 1920px;
+            width: 2px;
+            top: 41px;
+            left: 915px;
+
+        }
+    }
+
+    &__deko--line-8 {
+        display: none;
+
+        @media screen and (min-width: $pc) {
+            display: block;
+            position: absolute;
+            transform: rotate(90deg);
+            top: 650px;
+            left: 200px;
+            // height: 80%;
+        }
+
+        @media screen and (min-width:$big-pc) {
+            top: 881px;
+            left: 412px;
+
+        }
+    }
+
+    &__deko--ellipse {
+        position: absolute;
+        top: 224px;
+        
+        transform: translateX(-51%);
+
+        @media screen and (min-width: $pc) {
+            top: 550px;
+            left: 800px;
+        }
+
+        @media screen and (min-width: $big-pc) {
+            top: 751px;
+            left: 1099px;
+        }
+    }
+
+    &__deko--ellipse-2 {
+        position: absolute;
+        top: 232px;
+    left: 50%;
+    transform: translateX(-49%);
+
+        @media screen and (min-width: $pc) {
+            top: 560px;
+            left: 800px;
+        }
+
+        @media screen and (min-width: $big-pc) {
+            top: 765px;
+            left: 1106px;
+        }
+
+
+    }
+
+    &__btn {
+        margin-bottom: 133px;
+
+        @media screen and (min-width: $pc) {
+            position: absolute;
+            top: 552px;
+            left: 72px;
+            font-size: 18px;
+            width: 264px;
+            margin: 0;
+
+            // height: 80%;
+        }
+
+        @media screen and (min-width: $big-pc) {
+            width: 372px;
+            font-size: 18px;
+            top: 759px;
+            left: 160px;
+            height: 71px;
+
+
+        }
+    }
+
+    &__scroll {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.1;
+        display: flex;
+        align-items: center;
+        color: white;
+        justify-content: center;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.44);
+
+        @media screen and (min-width: $pc) {
+            position: absolute;
+            top: 700px;
+            right: 75px;
+            font-size: 20px;
+        }
+
+        @media screen and (min-width: $big-pc) {
+            top: 926px;
+            right: 199px;
+        }
+
+
+
+
+        &::after {
+            content: "";
+            width: 27px;
+            height: 27px;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url("../img/shevron.svg")
+        }
+
+
+    }
+
+    &__innercamp {
+        display: none;
+        font-family: $playfair;
+
+        font-weight: 400;
+        font-size: 48px;
+        letter-spacing: -0.035em;
+        color: rgba(255, 255, 255, 0.6);
+        transform: rotate(90deg);
+        line-height: 0.9;
+
+
+        @media screen and (min-width: $pc) {
+            display: block;
+            position: absolute;
+            top: 580px;
+            right: 75px;
+        }
+
+        @media screen and (min-width: $big-pc) {
+            top: 796px;
+            right: 198px;
+
+        }
+
+    }
+
+}

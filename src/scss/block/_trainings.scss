@@ -1,0 +1,402 @@
+.trainings {
+  
+    padding-top: 40px;;
+    padding-bottom: 116px;
+
+    @media screen and (min-width: $pc) {
+        position: relative;
+    }
+    @media screen and (min-width: $big-pc) {
+        padding-top: 55px;
+        padding-bottom: 125px;
+    }
+
+    &__carousel {
+        @media screen and (min-width: $big-pc) {
+           margin-bottom: 150px;
+        }
+    }
+
+    &__btn-primary {
+        width: 230px;
+        height: 57px;
+
+        @media screen and (min-width: $pc) {
+            width: 100%
+        }
+    }
+
+
+    &__subtitle {
+        font-family: $tolyer;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        color: $green-color-5;
+
+        @media screen and (min-width: $pc) {
+            font-size: 15px;
+        }
+
+        @media screen and (min-width: $pc) {
+            font-size: 17px;
+        }
+
+        @media screen and (min-width: $big-pc) {
+            font-size: 20px;
+        }
+
+    }
+
+    &__title {
+
+        font-family: $playfair;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 1.36;
+        color: $green-color-7;
+        margin-bottom: 30px;
+
+        @media screen and (min-width: $tablet) {
+            font-size: 35px;
+        }
+
+        @media screen and (min-width: $pc) {
+            font-size: 44px;
+            display: inline-block;
+        }
+
+        @media screen and (min-width: $big-pc) {
+            font-size: 64px;
+        }
+    }
+
+    &__btn {
+        margin-top: 72px;
+        // margin-bottom: 120px;
+        padding: 0;
+
+        @media screen and (min-width: $pc) {
+            margin-top: unset;
+            position: absolute;
+            top: 95px;
+            right: 1px;
+            font-weight: 700;
+            font-size: 20px;
+        }
+        @media screen and (min-width: $pc) {
+            top: 121px;
+            right: 91px;
+
+        }
+        
+
+
+    }
+
+    &__card {
+        background-color: $white-color-1;
+        border: 1px tomato solid;
+        width: 272px;
+        height: 437px;
+        border-radius: 17px;
+
+        @media screen and (min-width: $pc) {
+            position: relative;
+            width: 513px;
+            height: 759px;
+        }
+
+        &-wrap {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &-image {
+            // height: 104px;
+            width: 270px;
+            display: block;
+
+            @media screen and (min-width: $pc) {
+                width: 513px;
+            }
+        }
+
+
+
+        &-wave {
+            // width: 272px;
+            position: absolute;
+            width: 100%;
+            bottom: -1px;
+            left: 0
+        }
+
+        &-image-info {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            // display: flex;
+            // flex-direction: column;
+
+            &-mobile {
+                @media screen and (min-width: $pc) {
+                    display: none;
+                }
+            }
+
+            &-pc {
+                display: none;
+
+                @media screen and (min-width: $pc) {
+                    display: block
+                }
+            }
+
+            &-level {
+                display: inline-block;
+                font-family: $openSans;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 8px;
+                line-height: 1.65;
+                letter-spacing: 0.005em;
+                color: $green-color-8;
+                margin-bottom: 5px;
+                padding: 3px 10px;
+                background: $white-color-3;
+                border-radius: 23px;
+
+                @media screen and (min-width: $pc) {
+                    font-size: 20px;
+                }
+
+            }
+
+            &-type {
+                display: inline-block;
+                font-family: $openSans;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 8px;
+                line-height: 1.65;
+                letter-spacing: 0.005em;
+                color: $green-color-8;
+                margin-bottom: 5px;
+                padding: 3px 10px;
+
+                background: $white-color-3;
+                border-radius: 23px;
+
+                @media screen and (min-width: $pc) {
+                    font-size: 20px;
+                    margin-bottom: 33px;
+                }
+
+            }
+
+            &-yoga {
+
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+                padding: 3px 10px;
+                margin-bottom: 5px;
+
+                background-color: rgba(66, 79, 68, 0.5);
+                backdrop-filter: blur(1.64242px);
+                border-radius: 21px;
+
+
+
+                &-icon {
+                    width: 20px;
+
+                    @media screen and (min-width: $pc) {
+                        width: 55px;
+
+                    }
+
+                }
+
+                &-text {
+                    font-family: $openSans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 10px;
+                    line-height: 1.65;
+                    letter-spacing: 0.005em;
+                    color: $white-color-1;
+
+                    @media screen and (min-width: $pc) {
+                        font-weight: 600;
+                        font-size: 24px;
+
+                    }
+
+
+                }
+            }
+        }
+    }
+
+    &__info {
+        width: 100%;
+        height: 100%;
+        padding: 21px 25px;
+        @media screen and (min-width: $big-pc) {
+            padding: 17px 35px;
+        }
+
+        &-date {
+            font-family: $tolyer;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.14;
+            text-transform: capitalize;
+            letter-spacing: 0.1em;
+            color: $green-color-5;
+
+            @media screen and (min-width: $pc) {
+                font-size: 20px;
+            }
+        }
+
+        &-title {
+            font-family: $playfair;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1.42;
+            color: $green-color-5;
+            margin-bottom: 15px;
+
+            @media screen and (min-width: $pc) {
+                width: 265px;
+                font-size: 36px;
+                line-height: 1.2;
+                margin-bottom: 22px;
+            }
+
+        }
+
+        &-date {
+
+            &-wrapper {
+                display: flex;
+                gap: 9px;
+                align-items: center;
+                margin-bottom: 11px;
+            }
+
+            &-icon {
+                @media screen and (min-width: $pc) {
+                    width: 24px;
+                }
+            }
+
+            &-date {
+                font-family: $openSans;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 1.65;
+                letter-spacing: 0.005em;
+                color: $green-color-5;
+
+                @media screen and (min-width: $pc) {
+                    font-size: 20px;
+                }
+            }
+
+        }
+
+        &-language {
+
+
+            &-wrapper {
+                display: flex;
+                gap: 9px;
+                align-items: center;
+                margin-bottom: 11px;
+            }
+
+            &-title {
+                font-family: $openSans;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 1.65;
+                letter-spacing: 0.005em;
+                color: $green-color-5;
+
+                @media screen and (min-width: $pc) {
+                    font-size: 20px;
+                }
+
+            }
+
+            &-icon {
+                @media screen and (min-width: $pc) {
+                    width: 24px;
+                }
+            }
+        }
+
+
+        &-hours {
+
+            &-wrapper {
+                display: flex;
+                gap: 9px;
+                align-items: center;
+                margin-bottom: 11px;
+            }
+
+            &-title {
+                font-family: $openSans;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 1.65;
+                letter-spacing: 0.005em;
+                color: $green-color-5;
+
+                @media screen and (min-width: $pc) {
+                    font-size: 20px;
+                }
+            }
+
+            &-image {
+                @media screen and (min-width: $pc) {
+                    width: 24px;
+                }
+            }
+        }
+
+        &-status {
+            display: inline-block;
+            padding: 3px 10px;
+            background: $green-color-1;
+            border-radius: 31px;
+
+            font-family: $openSans;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 1.65;
+            letter-spacing: 0.005em;
+            color: $green-color-5;
+            margin-bottom: 30px;
+
+            @media screen and (min-width: $pc) {
+                font-size: 20px;
+            }
+
+        }
+    }
+
+}
+
+@media screen and (min-width: $pc) {}

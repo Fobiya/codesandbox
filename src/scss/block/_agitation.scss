@@ -1,0 +1,146 @@
+.agitation {
+    text-align: center;
+    background-color: $green-color-5;
+    // min-height: 288px;
+    padding-top: 44px;
+    padding-bottom: 44px;
+
+    @media screen and (min-width: $tablet) {
+        position: relative;
+        min-height: 300px;
+    }
+    @media screen and (min-width: $big-pc) {
+
+        padding: 84px 0;
+        padding-bottom: 67px; }
+
+
+    &__subtitle {
+        font-family: $tolyer;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.4;
+        letter-spacing: 0.1em;
+        color: $white-color-1;
+        margin-bottom: 5px;
+
+        @media screen and (min-width: $pc) {
+            font-size: 15px;
+
+        }
+
+        @media screen and (min-width: $pc) {
+            font-size: 17px;
+        }
+
+        @media screen and (min-width: $big-pc) {
+            font-size: 20px;
+        }
+
+    }
+
+    &__title {
+        font-family: $playfair;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 1.25;
+        color: $white-color-1;
+        margin-bottom: 15px;
+
+        @media screen and (min-width: $tablet) {
+            font-size: 35px;
+        }
+
+        @media screen and (min-width: $pc) {
+            font-size: 44px;
+            line-height: 1;
+            display: block;
+            width: 80%;
+            margin: 0 auto;
+            margin-bottom: 36px;
+
+        }
+
+        @media screen and (min-width: $big-pc) {
+
+            font-size: 64px;
+            line-height: 1;
+            margin-bottom: 40px;
+            font-size: 64px;
+            line-height: 1;
+            display: block;
+            width: 80%;
+            margin: 0 auto;
+            margin-bottom: 36px;
+
+        }
+
+
+
+    }
+
+    &__text {
+        font-family: $openSans;
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.57;
+        letter-spacing: 0.005em;
+        color: $white-color-1;
+        margin-bottom: 20px;
+
+        @media screen and (min-width: $tablet) {
+            font-size: 15px;
+        }
+
+        @media screen and (min-width: $pc) {
+            font-size: 16px;
+
+        }
+
+        @media screen and (min-width: $big-pc) {
+
+            font-size: 18px;
+            line-height: 1;
+        }
+    }
+
+    &__deko--line-1 {
+        margin-bottom: 22px;
+
+        @media screen and (min-width: $tablet) {
+            // display: none;
+            position: absolute;
+            left: -100px;
+            top: 160px;
+            transform: rotate(90deg);
+                  }
+
+                  @media screen and (min-width: $big-pc) {
+                    top: 170px;
+    left: -2px;
+    width: 277px;
+
+                  }
+
+    }
+
+    &__deko--line-2 {
+
+        @media screen and (min-width: $tablet) {
+            position: absolute;
+            right: -100px;
+            top: 160px;
+            transform: rotate(90deg);
+        }
+        
+        @media screen and (min-width: $big-pc) {
+            width: 277px;
+    top: 200px;
+    right: -3px;
+        }
+
+    }
+
+}
